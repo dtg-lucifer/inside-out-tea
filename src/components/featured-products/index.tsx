@@ -35,9 +35,8 @@ const FeaturedProducts = () => {
                 }
             )
             .map(({ mood, teaNames }) => {
-              const id = useId();
               return (
-                <CarouselItem key={id}>
+                <CarouselItem key={mood}>
                   <ProductCard mood={mood} names={teaNames} />
                 </CarouselItem>
               );
