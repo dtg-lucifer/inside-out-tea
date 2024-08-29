@@ -16,7 +16,7 @@ export default function Home() {
         <div className="left flex flex-col text-6xl text-green-500 font__handwriting">
           <span>Howdy hey,</span>
           <span>
-            What's your <span className="text-green-900">mood</span> today ?
+            What&apos;s your <span className="text-green-900">mood</span> today ?
           </span>
         </div>
         <div className="right">
@@ -34,10 +34,10 @@ export default function Home() {
       <section className="flex flex-col gap-3 text-end text-xl animate-delay-500 animate-ease-out animate-fade-left font__oldmoney">
         <h1 className="text-6xl">Taste the spectrum of emotions</h1>
         <span className="text-green-700 font__poppins">
-          There’s no doubt about the fact that people love tea! In fact, there
+          There&apos;s no doubt about the fact that people love tea! In fact, there
           are so many of us who reach out for a warm and soothing cup of tea,
           first thing in the morning. The calming and soothing effects of tea
-          are well-known, aren’t they? Some teas contain caffeine which boosts
+          are well-known, aren&apos;t they? Some teas contain caffeine which boosts
           your energy and helps you concentrate better. But if you think your
           relationship with tea ends here, you are highly mistaken.
         </span>
@@ -45,7 +45,7 @@ export default function Home() {
       </section>
 
       <section className="flex flex-col gap-3 text-xl animate-delay-1000 animate-ease-out animate-fade-right animate-once font__oldmoney">
-        <h1 className="text-6xl">So, what's your mood today ?</h1>
+        <h1 className="text-6xl">So, what&apos;s your mood today ?</h1>
         <div className="flex flex-col justify-between gap-4 w-full">
           <span className="text-green-700 font__poppins">
             Choose from any mood you are currently going trough and let us help
