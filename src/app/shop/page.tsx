@@ -30,7 +30,7 @@ const Shop = () => {
               <Link
                 key={t.mood}
                 href={`/shop/product/${t.mood}?names=${t.teaNames.map(n =>
-                  n.toLowerCase().split(" ").join("-")
+                  n.split(" ").join("-")
                 )}`}
               >
                 <div
@@ -52,7 +52,10 @@ const Shop = () => {
                       {t.mood}
                     </h1>
                     {t.teaNames.map(n => (
-                      <p key={n} className="text-green-600 text-xl font__handwriting">
+                      <p
+                        key={n}
+                        className="text-green-600 text-xl font__handwriting"
+                      >
                         {n}
                       </p>
                     ))}

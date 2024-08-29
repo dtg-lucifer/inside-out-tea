@@ -11,9 +11,10 @@ const Aboutus = () => {
         <article className="space-y-4 animate-delay-[200ms] animate-fade-right">
           <h1 className="text-6xl font__oldmoney">Our story</h1>
           <p className={styles.para}>
-            Inpired by the colorful emotions of &apos;Inside Out&apos; movie,{" "}
-            <span>Inside Out</span> was born out of passion for creating more
-            than just a drink - it&apos;s an emotional experience in every cup.
+            Inpired by the colorful emotions of &apos;Inside Out Tea&apos;
+            movie, <span>Inside Out Tea</span> was born out of passion for
+            creating more than just a drink - it&apos;s an emotional experience
+            in every cup.
           </p>
         </article>
         <article className="space-y-4 animate-delay-[400ms] animate-fade-left">

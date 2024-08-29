@@ -6,7 +6,7 @@ import { SheetContent } from "../../ui/sheet";
 const Sidebar = () => {
   return (
     <SheetContent className="bg-green-100" side={"left"}>
-      Inside Out
+      Inside Out Tea
     </SheetContent>
   );
 };

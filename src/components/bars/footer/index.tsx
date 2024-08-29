@@ -21,14 +21,12 @@ const Footer = () => {
         </div>
         <div className="right">
           <div className="text-2xl font__handwriting">
-            Inside out | Copyrights reserved ©
+            Inside Out Tea | Copyrights reserved ©
           </div>
           <div className="flex justify-between items-center mt-4 text-2xl font__handwriting">
             <span>Mail us at: </span>
             <Button asChild variant={"link"} className="p-0 w-auto text-2xl">
-              <Link
-                href="mailto:insideouttea7@gmail.com"
-              >
+              <Link href="mailto:insideouttea7@gmail.com">
                 insideouttea7@gmail.com
               </Link>
             </Button>

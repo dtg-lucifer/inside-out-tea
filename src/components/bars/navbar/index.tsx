@@ -23,21 +23,21 @@ const Navbar = () => {
               priority
             />
           </Link>
-          <span className="text-2xl font__handwriting">Inside out</span>
+          <span className="text-2xl font__handwriting">Inside Out Tea</span>
         </div>
         <div className="right__wrapper flex gap-[3rem]">
           <Link
-            className="md:inline-flex justify-between items-center gap-2 hidden text-xl font__oldmoney"
+            className="md:inline-flex justify-between items-center gap-2 hidden text-xl font__oldmoney group"
             href="/shop"
           >
-            <ShoppingCart />
+            <ShoppingCart className="group-hover:animate-jump" />
             <span>Shop</span>
           </Link>
           <Link
-            className="md:inline-flex justify-between items-center gap-2 hidden text-xl font__oldmoney"
+            className="md:inline-flex justify-between items-center gap-2 hidden text-xl font__oldmoney group"
             href="/about-us"
           >
-            <LucideHome />
+            <LucideHome className="group-hover:animate-jump" />
             <span>About us</span>
           </Link>
           <SheetTrigger asChild>

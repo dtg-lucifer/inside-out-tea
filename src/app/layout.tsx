@@ -7,7 +7,7 @@ import { Sheet } from "~/components/ui/sheet";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Inside Out | The utlimate tea junction",
+  title: "Inside Out Tea | The utlimate tea junction",
   description:
     "The ultimate tea junction for all types of tea lovers depending on their mood.",
 };
@@ -24,10 +24,10 @@ export default function RootLayout({
       </head>
       <body className={`${inter.className} bg-green-50`}>
         <Sheet>
-          <Sidebar />
-          <Navbar />
-          <main className="bg-green-50">{children}</main>
-          <Footer />
+            <Sidebar />
+            <Navbar />
+            <main className="bg-green-50 min-h-screen">{children}</main>
+            <Footer />
         </Sheet>
       </body>
     </html>
