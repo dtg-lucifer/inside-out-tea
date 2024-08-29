@@ -78,9 +78,9 @@ const Aboutus = () => {
         <article className="space-y-4 animate-delay-[1.2s] animate-fade-left">
           <h1 className="text-6xl font__oldmoney">Contact us</h1>
           <p className={styles.para}>
-            Encourage visitors to reach out with a friendly invitation: "Have a
-            question or just want to chat about tea? Drop us a message – we’d
-            love to hear from you!"
+            Encourage visitors to reach out with a friendly invitation:
+            &quot;Have a question or just want to chat about tea? Drop us a
+            message - we&apos;d love to hear from you!&quot;
           </p>
           <p className="space-x-4">
             <Button asChild className="bg-red-800">
