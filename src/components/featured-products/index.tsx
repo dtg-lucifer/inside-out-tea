@@ -32,6 +32,7 @@ const FeaturedProducts = () => {
                   disgust: 1,
                   sadness: 1,
                   fear: 1,
+                  anger: 1,
                 }
             )
             .map(({ mood, teaNames }) => {

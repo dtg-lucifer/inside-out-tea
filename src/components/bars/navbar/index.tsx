@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Button } from "../../ui/button";
-import { Menu } from "lucide-react";
+import { LucideHome, Menu, ShoppingCart } from "lucide-react";
 import { SheetTrigger } from "../../ui/sheet";
 
 const Navbar = () => {
@@ -25,18 +25,20 @@ const Navbar = () => {
           </Link>
           <span className="text-2xl font__handwriting">Inside out</span>
         </div>
-        <div className="right__wrapper flex gap-6">
+        <div className="right__wrapper flex gap-[3rem]">
           <Link
-            className="md:inline-block hidden text-xl font__oldmoney"
-            href="about-us"
+            className="md:inline-flex justify-between items-center gap-2 hidden text-xl font__oldmoney"
+            href="/shop"
           >
-            About us
+            <ShoppingCart />
+            <span>Shop</span>
           </Link>
           <Link
-            className="md:inline-block hidden text-xl font__oldmoney"
-            href="community"
+            className="md:inline-flex justify-between items-center gap-2 hidden text-xl font__oldmoney"
+            href="/about-us"
           >
-            Community
+            <LucideHome />
+            <span>About us</span>
           </Link>
           <SheetTrigger asChild>
             <Button variant={"ghost"} className="md:hidden">

@@ -46,7 +46,7 @@ export default function Home() {
 
       <section className="flex flex-col gap-3 text-xl animate-delay-1000 animate-ease-out animate-fade-right animate-once font__oldmoney">
         <h1 className="text-6xl">So, what&apos;s your mood today ?</h1>
-        <div className="flex flex-col justify-between gap-4 w-full">
+        <div className="flex flex-col justify-between items-center gap-4 w-full">
           <span className="text-green-700 font__poppins">
             Choose from any mood you are currently going trough and let us help
             you choose the right blend for your tea.
@@ -54,10 +54,10 @@ export default function Home() {
           <Button
             asChild
             variant={"outline"}
-            className="bg-transparent hover:bg-green-300 rounded-none w-[25%] h-12 transition-colors group"
+            className="bg-transparent hover:bg-green-300 mt-12 px-8 py-7 rounded-none h-12 transition-colors group"
           >
             <Link className="text-xl font__poppins" href={"/shop"}>
-              <ShoppingBag className="mx-4 text-green-800 group-hover:animate-jump group-hover:delay-0" />
+              <ShoppingBag className="mr-4 text-green-800 group-hover:animate-jump group-hover:delay-0" />
               Shop
             </Link>
           </Button>

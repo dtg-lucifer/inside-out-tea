@@ -22,7 +22,7 @@ export default function RootLayout({
       <head>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
       </head>
-      <body className={`${inter.className}`}>
+      <body className={`${inter.className} bg-green-50`}>
         <Sheet>
           <Sidebar />
           <Navbar />

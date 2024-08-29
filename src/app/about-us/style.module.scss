@@ -1,0 +1,25 @@
+.para {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+
+  color: #26974f;
+
+  span {
+    color: #14532d;
+  }
+
+  h1:not(.space-y-4) {
+    margin-bottom: 1rem;
+  }
+}
+
+// section.bg {
+//   background-color: #00ff66;
+//   background-image: url("/bg1.jpg");
+//   background-size: cover;
+//   background-blend-mode: multiply;
+//   overflow: visible;
+// }
